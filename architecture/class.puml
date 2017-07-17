@@ -1,0 +1,25 @@
+@startuml
+
+abstract class AE{
+
+}
+note left: Applicative expression
+class Lambda{
+
+}
+note left: expression
+class Identifier{
+
+}
+note left: identifier, which are managed in environment
+abstract class ap
+
+AE <-- Lambda
+AE <-- Identifier
+
+
+
+
+
+
+@enduml
